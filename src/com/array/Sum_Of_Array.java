@@ -5,7 +5,7 @@ public class Sum_Of_Array {
         int[] arr = {2, 3, 45, 6};
         int sum = 0;
         for (int j : arr) {
-            sum = sum + j;
+            sum +=j;
         }
         System.out.println("Sum of array is: " + sum);
     }
